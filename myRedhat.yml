@@ -1,0 +1,18 @@
+---
+ - hosts: all
+   become: yes
+   gathering_facts: yes
+   tasks:
+   - name: i want to install webserver on "Redhat" to the nodes
+     ansible.builtin.dnf:
+      name: httpd
+      state: present
+     when: ansible_os_family == "Redhat"
+
+   - name: i want to start webserver on "Redhat" to the nodes
+     service:
+      name: httpd
+      state: started
+     when: ansible_os_family == "Redhat"
+
+    
