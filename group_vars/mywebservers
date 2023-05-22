@@ -1,3 +1,4 @@
 ---
 myvar01: abc123
 mywebonubuntu: apache2
+myjavaonubuntu: openjdk-8-jdk
