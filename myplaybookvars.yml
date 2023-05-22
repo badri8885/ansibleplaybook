@@ -9,4 +9,13 @@
    - name: i want display myvar01
      debug:
        msg: "{{myvar01}}"
+    
+   - name: i want to display myvar02
+     debug:
+        msg: "{{myvar02}}"
+
+   - name: i want to display myvar03
+     debug:
+       msg: "{{myvar03}}"
+
      
