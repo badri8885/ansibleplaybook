@@ -1,0 +1,19 @@
+---
+- hosts: 172.31.37.212
+  become: yes
+  tasks: 
+  - name: intall git
+    apt:
+     name: git
+     state: present
+
+  - name: intall tree
+    apt:
+     name: tree
+     statee: present
+
+  - name: intall wget
+    apt:
+     name: wget
+     state: present
+     
