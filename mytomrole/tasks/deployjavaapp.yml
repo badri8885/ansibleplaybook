@@ -3,5 +3,5 @@
   get_url:
    url: https://myjavafile.s3.us-east-2.amazonaws.com/JavaVulnerableLab.war
    dest: /opt/tomcat/webapps/JavaVulnerableLab.war
-   force_basic_auth: yes
+   force_basic_auth: yess
 
