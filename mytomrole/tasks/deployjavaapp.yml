@@ -1,6 +1,6 @@
 --- 
 - name: deploy java applications on webpage
   get_url:
-   url: https://myjavafile.s3.us-east-2.amazonaws.com/JavaVulnerableLab.war
-   dest: /opt/tomcat/webapps/JavaVulnerableLab.war
+   url: https://mysamplewar.s3.us-east-2.amazonaws.com/Lab6A.war
+   dest: /opt/tomcat/webapps/Lab6A.war
    force_basic_auth: yes
